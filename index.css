@@ -2,30 +2,46 @@ body{
     margin: 0;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    background-color: #e3edf7;
 }
 
 div{
-    background-color: #1b65e4;
+    background-color: #e3edf7;
     margin-top: 40px;
     padding: 10px;
-    color:#f7f7f7;
-
+    color:#343c51;
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
 }
 h1{
     text-align: center;
     margin-top: 15%;
-    color:#f7f7f7;
-    background-color: #1b65e4;
+    color:#343c51;
+    background-color: #e3edf7;
+    border-radius: 15px;
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
 img{
-    margin-top: -5%;
+    margin-top: -1%;
     max-width: 80%;
-    margin-left: 20%; 
+    margin-left: 17%; 
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
 }
 
 .continue{
-    background-color: #14c761;
-    margin-top: -5%;
+    background-color: #f97e1b;
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    margin-top: 1%;
+    border-radius: 15px;
 }
 .continue p{
     color:white;
@@ -41,16 +57,17 @@ button {
     outline: none;
     color: #1b65e4;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 5px #999;
+    margin-bottom: 10px;
   }
   
 button:hover {
-    background-color: #1b65e4;
+    background-color: #f97e1b;
     color: white;
   }
   button:active {
-    background-color: #1b65e4;
+    background-color: rgb(54, 224, 54);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
